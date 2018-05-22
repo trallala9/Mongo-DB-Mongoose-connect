@@ -9,6 +9,10 @@
   "author": "Karolina Siwkowska",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.16.3",
     "mongoose": "^5.1.2"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
   }
 }
