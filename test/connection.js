@@ -14,3 +14,10 @@ before(function (done) {
         console.log('Connection error:', error);
     });
 });
+// Drop"delete it" the characters collection before each test
+beforeEach(function (done) {
+    //Drop collection
+    mongoose.connection.collections.mariochars.drop(function () {
+        done();
+    });
+});
