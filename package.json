@@ -1,0 +1,14 @@
+{
+  "name": "mongobaza-1",
+  "version": "1.0.0",
+  "description": "First database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Karolina Siwkowska",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^5.1.2"
+  }
+}
